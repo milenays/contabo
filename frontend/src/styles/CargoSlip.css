@@ -1,0 +1,128 @@
+.cargo-slip {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: white;
+  border: 2px solid #000;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.cargo-slip::before {
+  content: '';
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  width: 100px;
+  height: 100px;
+  background-color: #1890ff;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+
+.cargo-slip::after {
+  content: '';
+  position: absolute;
+  bottom: -50px;
+  right: -50px;
+  width: 100px;
+  height: 100px;
+  background-color: #1890ff;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cargo-slip .logo {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.order-info {
+  text-align: right;
+}
+
+.info-section {
+  background-color: #f0f2f5;
+  padding: 15px;
+  border-radius: 4px;
+  height: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.customer-info, .sender-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.barcode-section {
+  margin: 20px 0;
+  text-align: center;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.barcode-section svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-section {
+  margin-top: 20px;
+}
+
+.cargo-slip .ant-table-small {
+  font-size: 14px;
+}
+
+.cargo-slip .ant-table-tbody > tr > td {
+  padding: 8px 16px;
+}
+
+.footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.fun-message {
+  margin-top: 20px;
+  text-align: center;
+  font-style: italic;
+  color: #1890ff;
+}
+
+@media print {
+  .cargo-slip {
+    border: none;
+  }
+
+  .cargo-slip::before,
+  .cargo-slip::after {
+    display: none;
+  }
+
+  .cargo-slip .ant-typography {
+    color: #000 !important;
+  }
+
+  .cargo-slip .ant-table-thead > tr > th {
+    background-color: #f0f2f5 !important;
+    color: #000 !important;
+  }
+
+  .cargo-slip .ant-table-tbody > tr > td {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+}

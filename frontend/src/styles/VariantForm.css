@@ -1,0 +1,22 @@
+.variant-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .option-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .remove-icon-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .remove-icon {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  

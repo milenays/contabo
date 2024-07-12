@@ -1,0 +1,133 @@
+.order-page-container {
+  padding: 24px;
+  background-color: #f0f2f5;
+  min-height: 20vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.order-page-container .ant-card {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s;
+}
+
+.order-page-container .ant-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.order-table-card {
+  margin-top: 1px;
+}
+
+.order-page-container .ant-table {
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.order-page-container .ant-table-thead > tr > th {
+  background-color: #f7f7f7;
+  font-weight: 600;
+  text-align: center;
+  color: #333;
+  padding: 6px 8px;
+}
+
+.order-page-container .ant-table-tbody > tr > td {
+  padding: 12px 8px;
+  text-align: center;
+  color: #555;
+}
+
+.order-page-container .ant-table-tbody > tr:hover {
+  background-color: #f0f7ff;
+}
+
+.order-page-container .ant-pagination {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.order-page-container .ant-btn-primary {
+  background-color: #1890ff;
+  border-color: #1890ff;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.order-page-container .ant-btn-primary:hover,
+.order-page-container .ant-btn-primary:focus {
+  background-color: #40a9ff;
+  border-color: #40a9ff;
+}
+
+.platform-image, .cargo-provider-image {
+  width: 40px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.3s;
+}
+
+.platform-image:hover, .cargo-provider-image:hover {
+  transform: scale(1.1);
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-tabs-card {
+  background: linear-gradient(135deg, #1890ff 0%, #096dd9 100%);
+  padding: 1px;
+  margin-bottom: 1px;
+}
+
+.order-tabs {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 1px;
+}
+
+.order-tabs .ant-segmented-item {
+  transition: all 0.3s;
+  border-radius: 6px;
+}
+
+.order-tabs .ant-segmented-item-selected {
+  background-color: #ffffff;
+  color: #1890ff;
+  font-weight: 500;
+}
+
+.order-page-container .ant-statistic-title {
+  font-size: px;
+  color: #8c8c8c;
+}
+
+.order-page-container .ant-statistic-content {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.order-page-container .ant-progress-circle {
+  margin-right: 8px;
+}
+
+.order-page-container .ant-divider-horizontal {
+  margin: 4px 0;
+}
+
+@media (max-width: 768px) {
+  .order-page-container {
+    padding: 6px;
+  }
+  
+  .order-tabs .ant-segmented-item {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+}

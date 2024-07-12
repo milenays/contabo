@@ -1,0 +1,20 @@
+/* Drawer açıldığında arka planın ölçeklenmesini sağlayan CSS */
+.drawer-open {
+    transform: scale(0.98); /* Arka planı 10-15px küçültmek için ölçekleme */
+    transition: transform 0.3s ease;
+    background-color: black; /* Arka planın siyah olması için */
+    overflow: hidden; /* Taşan içeriği gizlemek için */
+}
+
+/* Drawer içeriği için stil */
+.custom-drawer .ant-drawer-content {
+    background-color: #f0f0f0;
+    padding: 16px;
+    border-radius: 10px 10px 0 0;
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  background-color: #2e2e2e; /* Daha koyu gri */
+  border-color: #2e2e2e;
+}

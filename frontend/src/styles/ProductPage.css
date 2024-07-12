@@ -1,0 +1,22 @@
+.product-page {
+    padding: 24px;
+  }
+  
+  .product-page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .add-product-button {
+    font-weight: bold;
+  }
+  
+  .product-drawer {
+    background-color: #f0f2f5;
+  }
+  
+  .product-drawer .ant-drawer-content {
+    border-radius: 8px 0 0 8px;
+  }

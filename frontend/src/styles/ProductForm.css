@@ -1,0 +1,41 @@
+/* Drawer arka plan bulanıklaştırma ve ölçeklendirme */
+.custom-drawer.ant-drawer-content-wrapper {
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  .custom-drawer.ant-drawer-content {
+    padding: 0;
+    border-radius: 8px 8px 0 0;
+    background: white;
+    height: 100%;
+  }
+  
+  .drawer-content {
+    padding: 16px;
+  }
+  
+  .drawer-separator {
+    width: 50px;
+    height: 5px;
+    background: gray;
+    border-radius: 2.5px;
+    margin: 0 auto 16px;
+  }
+  
+  /* Arka planı içe doğru küçültme ve kenarları siyah yapma */
+  .ant-drawer-mask {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+  }
+  
+  .drawer-footer {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+  }
+  
+  body {
+    overflow: hidden;
+  }
+  

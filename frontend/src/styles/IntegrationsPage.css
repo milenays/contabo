@@ -1,0 +1,38 @@
+.integrations-page {
+    padding: 24px;
+  }
+  
+  .integrations-page h1 {
+    margin-bottom: 24px;
+  }
+  
+  .add-integration-btn {
+    margin-bottom: 24px;
+  }
+  
+  .ant-list-item {
+    margin-bottom: 16px;
+  }
+  
+  .ant-card {
+    height: 100%;
+  }
+  
+  .ant-card-head-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .ant-card-body p {
+    margin-bottom: 8px;
+  }
+  
+  .ant-card-actions {
+    background-color: #f0f2f5;
+  }
+  
+  @media (max-width: 768px) {
+    .ant-list-grid .ant-col {
+      width: 100% !important;
+    }
+  }
