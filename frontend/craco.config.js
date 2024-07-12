@@ -2,7 +2,7 @@ const CracoLessPlugin = require('craco-less-fix');
 
 module.exports = {
   devServer: {
-    allowedHosts: ['185.198.27.35'], // IP adresinizi buraya ekleyin
+    allowedHosts: ['.localhost', '185.198.27.35'], // Buraya IP adresinizi ekleyin
   },
   plugins: [
     {
